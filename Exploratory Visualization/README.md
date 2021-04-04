@@ -10,8 +10,8 @@ Topic: Monthly changes of PM10 and PM2.5 in the cities of South Korea by year
 Research question: 1) How bad it is? 2)
 Signiciance: This may give the audience an opportunity to think about the air quality of their own community
 
-![brainstorm](./img/brainstorm.jpg)
+![brainstorm](./img/brainstorm_2.jpg)
 
 ## 3. Sketches
 
-![sketches](./img/sketches.jpg)
+![sketches](./img/sketches_2.jpg)
