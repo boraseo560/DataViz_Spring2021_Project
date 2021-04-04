@@ -14,4 +14,4 @@ Signiciance: This may give the audience an opportunity to think about the air qu
 
 ## 3. Sketches
 
-<img src="/img/sketches.jpg", width="800">
+<img src="./img/sketches.jpg", width="800">
