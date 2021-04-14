@@ -6,9 +6,11 @@ For the last few years, deteriorating air quality has been a major issue in Sout
 
 ## 2. Brainstorming
 
-Topic: Monthly changes of PM10 and PM2.5 in the cities of South Korea by year
-Research question: 1) How bad it is? 2)
-Signiciance: This may give the audience an opportunity to think about the air quality of their own community
+- Topic: Monthly changes of PM10 and PM2.5 in the cities of South Korea by year
+
+- Research question: 1) How bad it is? 2)
+
+- Signiciance: This may give the audience an opportunity to think about the air quality of their own community
 
 ![brainstorm](./img/brainstorm_2.jpg)
 
