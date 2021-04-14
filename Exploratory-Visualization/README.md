@@ -16,4 +16,4 @@ For the last few years, deteriorating air quality has been a major issue in Sout
 
 ## 3. Sketches
 
-![sketches](./img/sketches_2.jpg)
+![sketches](./img/layout.jpg)
