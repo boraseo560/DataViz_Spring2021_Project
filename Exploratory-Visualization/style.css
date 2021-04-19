@@ -1,15 +1,23 @@
 /* svg {
   background-color:;
 } */
+
 body {
-  background-color: beige;
+  background-color: #fff7e8;
   display: flex;
   flex-direction: column;
+}
+
+.description {
   justify-content: center;
   align-items: center;
 }
-.container {
+.comparison-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+}
+
+.line-chart-container {
+  display: flex;
+  flex-direction: row;
 }

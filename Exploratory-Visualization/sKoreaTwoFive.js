@@ -4,65 +4,106 @@ const width = window.innerWidth * 0.5,
     radius = 3;
 
 let pmTFive;
-let xScale;
-let yScale;
-let xAxis;
-let yAxis;
+let xSKFive;
+let ySKFive;
+let xAxisSKFive;
+let yAxisSKFive;
 
 // const parseTime = d3.timeParse("%m");
 let state = {
-    data: [],
-    selection: "All"
+    data: null
 };
 
 
-d3.csv('./data/PM25_byMonth_byCity_201501_202005_3.csv', d => {
+d3.csv('./data/PM25_byMonth_byCity_201501_202005_annual.csv', d => {
     return {
-        Year: +d.Year,
+        Year: new Date(+d.Year, 0, 1),
         City: d.City,
-        Month: new Date(2010, +d.Month - 1, 1),
+        // Month: new Date(2010, +d.Month - 1, 1),
         pmtwofive: +d.pmtwofive
     }
 })
     .then(data => {
-        console.log(data);
+        console.log("what is this", data);
         state.data = data;
         init();
     })
 
 function init() {
 
-    xScale = d3.scaleTime()
-        .domain(d3.extent(state.data, d => d.Month))
-        .range([margin.right, width - margin.left])
+    xSKFive = d3.scaleTime()
+        .domain(d3.extent(state.data, d => d.Year))
+        .range([margin.right, (width * 0.8) - margin.left])
 
-    yScale = d3.scaleLinear()
+    ySKFive = d3.scaleLinear()
         .domain(d3.extent(state.data, d => d.pmtwofive))
-        .range([height - margin.bottom, margin.top])
+        .range([height * 0.8 - margin.bottom, margin.top])
 
-    xAxis = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b"))
-    yAxis = d3.axisLeft(yScale)
+    xAxisSKFive = d3.axisBottom(xSKFive).tickFormat(d3.timeFormat("%Y"))
+    yAxisSKFive = d3.axisLeft(ySKFive)
 
     pmTFive = d3.select(".pm25-line")
         .append("svg")
         .attr("width", width)
         .attr("height", height)
 
-    xAxisGroup = pmTFive.append("g")
-        .attr("class", "xAxis")
-        .attr("transform", `translate(${0}, ${height - margin.bottom})`)
-        .call(xAxis)
+    xAxisSKFiveGroup = pmTFive.append("g")
+        .attr("class", "xAxisSKFive")
+        .attr("transform", `translate(${0}, ${(height * 0.8) - margin.bottom})`)
+        .call(xAxisSKFive)
         .append("text")
-        .text("Month")
-        .attr("transform", `translate(${width / 2}, ${40})`)
+        .text("Year")
+        .attr("transform", `translate(${(width * 0.8) / 2}, ${40})`)
+        .attr("fill", "black")
+        .attr("font-size", "16")
 
-    yAxisGroup = pmTFive.append("g")
-        .attr("class", "yAxis")
+    yAxisSKFiveGroup = pmTFive.append("g")
+        .attr("class", "yAxisSKFive")
         .attr("transform", `translate(${margin.left}, ${0})`)
-        .call(yAxis)
+        .call(yAxisSKFive)
+        .append("text")
+        .text("PM2.5")
+        .attr("transform", `translate(${- 25}, ${(height * 0.8) / 2})rotate(-90)`)
+        .attr("text-anchor", "middle")
+        .attr("fill", "black")
+        .attr("font-size", "16")
+    draw();
 }
 
 function draw() {
-    pmTFiveg.selectAll(".line")
+
+    color = d3.scaleOrdinal(d3.schemePaired)
+
+    nested = d3.groups(state.data, d => d.City)
+    console.log("HAHA", nested.key)
+
+    // PM2.5
+    const lineFunctionSK = d3.line()
+        // .defined(d => !isNaN(d))
+        // .curve(d3.curveBasis)
+        .x(d => xSKFive(d.Year))
+        .y(d => ySKFive(d.pmtwofive))
+
+    const mouseFive = pmTFive.selectAll("path.line")
+        .data(nested)
+        .join("path")
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        // .style("mix-blend-mode", "multiply")
+        .attr("class", "line")
+        .attr("stroke-width", "1")
+        .attr("stroke", "darkblue")
+        .attr("fill", "none")
+        .attr("d", d => {
+            console.log("d", d)
+            return lineFunctionSK(d[1])
+        })
+
+    mouseFive
+        .on("mousemove", function (event, d) {
+            d3.select(this).transition()
+        })
+
+
 
 }
