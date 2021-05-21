@@ -16,4 +16,4 @@ This project concerns the context of low fertility rate in South Korea, especial
 
 ## 3. Initial Sketches
 
-![brief_sketch](./img/brief_sketch.jpg)
+![brief_sketch_2](./img/brief_sketch_2.jpg)
