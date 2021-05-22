@@ -1,0 +1,127 @@
+[
+  {
+    "group": "15-54",
+    "reason": "Marriage",
+    "ratio": 0.275
+  },
+  {
+    "group": "15-54",
+    "reason": "Pregnancy",
+    "ratio": 0.213
+  },
+  {
+    "group": "15-54",
+    "reason": "Parenting",
+    "ratio": 0.425
+  },
+  {
+    "group": "15-54",
+    "reason": "Child Education (Elementary)",
+    "ratio": 0.041
+  },
+  {
+    "group": "15-54",
+    "reason": "Family Care",
+    "ratio": 0.046
+  },
+  {
+    "group": "15-29",
+    "reason": "Marriage",
+    "ratio": 0.278
+  },
+  {
+    "group": "15-29",
+    "reason": "Pregnancy",
+    "ratio": 0.33
+  },
+  {
+    "group": "15-29",
+    "reason": "Parenting",
+    "ratio": 0.371
+  },
+  {
+    "group": "15-29",
+    "reason": "Child Education (Elementary)",
+    "ratio": 0.011
+  },
+  {
+    "group": "15-29",
+    "reason": "Family Care",
+    "ratio": 0.009
+  },
+  {
+    "group": "30-39",
+    "reason": "Marriage",
+    "ratio": 0.237
+  },
+  {
+    "group": "30-39",
+    "reason": "Pregnancy",
+    "ratio": 0.24
+  },
+  {
+    "group": "30-39",
+    "reason": "Parenting",
+    "ratio": 0.485
+  },
+  {
+    "group": "30-39",
+    "reason": "Child Education (Elementary)",
+    "ratio": 0.026
+  },
+  {
+    "group": "30-39",
+    "reason": "Family Care",
+    "ratio": 0.012
+  },
+  {
+    "group": "40-49",
+    "reason": "Marriage",
+    "ratio": 0.298
+  },
+  {
+    "group": "40-49",
+    "reason": "Pregnancy",
+    "ratio": 0.186
+  },
+  {
+    "group": "40-49",
+    "reason": "Parenting",
+    "ratio": 0.398
+  },
+  {
+    "group": "40-49",
+    "reason": "Child Education (Elementary)",
+    "ratio": 0.064
+  },
+  {
+    "group": "40-49",
+    "reason": "Family Care",
+    "ratio": 0.055
+  },
+  {
+    "group": "50-54",
+    "reason": "Marriage",
+    "ratio": 0.366
+  },
+  {
+    "group": "50-54",
+    "reason": "Pregnancy",
+    "ratio": 0.112
+  },
+  {
+    "group": "50-54",
+    "reason": "Parenting",
+    "ratio": 0.269
+  },
+  {
+    "group": "50-54",
+    "reason": "Child Education (Elementary)",
+    "ratio": 0.045
+  },
+  {
+    "group": "50-54",
+    "reason": "Family Care",
+    "ratio": 0.209
+  }
+]

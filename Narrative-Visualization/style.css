@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+select {
+  /* -webkit-appearance: none; */
+  -moz-appearance: none;
+  -ms-appearance: none;
+  /* appearance: none; */
+  outline: 1;
+  background: #bdd2b6;
+  /* background-image: none; */
+  border: 1px solid black;
+}
+
+select {
+  width: 8%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 0.7em;
+  color: #282846;
+  cursor: pointer;
+}
+
+body {
+  background-color: #fdfaf6;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  color: #333333;
+}
+
+.hover-content {
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  background-color: #2a3356;
+  padding: 0.5em;
+  opacity: 0;
+  color: #feffea;
+}
+
+.donut-tip {
+  position: absolute;
+  text-align: center;
+  padding: 0.5rem;
+  background: #ffffff;
+  color: #313639;
+  border: 1px solid #313639;
+  border-radius: 8px;
+  pointer-events: none;
+  font-size: 1.3rem;
+}
+
+.dropdown-reason select {
+  -webkit-appearance: none;
+  width: 100px;
+}
+
+.age-group {
+  margin-bottom: 10px;
+}
+
+.tick text {
+  font-size: 16px;
+}
+
+.hover-content.visible {
+  opacity: 1;
+}
+
+.house-work-wrapper,
+.parental-leave-wrapper,
+.fer-wrapper,
+.career-discon,
+.pie-chart-childage,
+.pie-chart-reason,
+.emp-rate {
+  position: relative;
+}
+
+.abstract,
+.conclusion {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 0.2em;
+}
+.intro p {
+  font-size: 20px;
+  line-height: 1.2em;
+  margin: 0 565px 40px 565px;
+  text-align: justify;
+}
+
+.p-first {
+  font-size: 20px;
+  line-height: 1.2em;
+  margin: 20px 565px 10px 565px;
+  text-align: justify;
+}
+
+.p-second {
+  font-size: 20px;
+  line-height: 1.2em;
+  margin: 0 565px 40px 565px;
+  text-align: justify;
+}
+
+.des,
+.chap {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  /* justify-content: center; */
+  text-align: center;
+  color: #4a4a4a;
+  /* font-weight: 50; */
+}
+.htwo {
+  font-weight: 500;
+  font-size: 25px;
+}
+.htwo-2 {
+  line-height: 0.4em;
+  font-weight: 400;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.intro h1,
+.intro h2 {
+  line-height: 0.1em;
+}
+/* .intro h2 { 
+  font-weight: 400;
+} */
+
+.intro,
+.pop-wrapper,
+.fer-wrapper,
+.career-discon,
+.emp-rate,
+.wage-gap-wrapper,
+.house-work-wrapper,
+.parental-leave-wrapper,
+.attitude-survey,
+.pie-chart-reason,
+.pie-chart-childage,
+.conclu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pie-charts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wage-gap-wrapper,
+.pie-charts-wrapper,
+.parental-leave-wrapper,
+.discon-pop,
+.career-discon-trend,
+.emp-rate-by-sex,
+.temporary-emp-rate,
+.house-work-wrapper {
+  margin-bottom: 20px;
+}
+
+.fer-wrapper {
+  /* margin-top: 80px; */
+  margin-bottom: 30px;
+}
+
+.hr-one {
+  width: 600px;
+  border-bottom: 0px;
+  margin: 15px 0 30px 0;
+}
+
+.abstract {
+  margin: 20px;
+}

@@ -1,0 +1,203 @@
+﻿Country,Year,Rate
+Canada,2008,1.7
+Canada,2009,1.7
+Canada,2010,1.6
+Canada,2011,1.6
+Canada,2012,1.6
+Canada,2013,1.6
+Canada,2014,1.6
+Canada,2015,1.6
+Canada,2016,1.5
+Canada,2017,1.5
+Canada,2018,1.5
+Germany,2008,1.4
+Germany,2009,1.4
+Germany,2010,1.4
+Germany,2011,1.4
+Germany,2012,1.4
+Germany,2013,1.4
+Germany,2014,1.5
+Germany,2015,1.5
+Germany,2016,1.6
+Germany,2017,1.6
+Germany,2018,1.6
+Japan,2008,1.4
+Japan,2009,1.4
+Japan,2010,1.4
+Japan,2011,1.4
+Japan,2012,1.4
+Japan,2013,1.4
+Japan,2014,1.4
+Japan,2015,1.5
+Japan,2016,1.4
+Japan,2017,1.4
+Japan,2018,1.4
+South Korea,2008,1.2
+South Korea,2009,1.1
+South Korea,2010,1.2
+South Korea,2011,1.2
+South Korea,2012,1.3
+South Korea,2013,1.2
+South Korea,2014,1.2
+South Korea,2015,1.2
+South Korea,2016,1.2
+South Korea,2017,1.1
+South Korea,2018,1
+South Korea,2019,0.9
+Mexico,2008,2.4
+Mexico,2009,2.4
+Mexico,2010,2.3
+Mexico,2011,2.3
+Mexico,2012,2.3
+Mexico,2013,2.3
+Mexico,2014,2.2
+Mexico,2015,2.2
+Mexico,2016,2.2
+Mexico,2017,2.2
+Mexico,2018,2.1
+New Zealand,2008,2.2
+New Zealand,2009,2.1
+New Zealand,2010,2.2
+New Zealand,2011,2.1
+New Zealand,2012,2.1
+New Zealand,2013,2
+New Zealand,2014,1.9
+New Zealand,2015,2
+New Zealand,2016,1.9
+New Zealand,2017,1.8
+New Zealand,2018,1.7
+New Zealand,2019,1.8
+Norway,2008,2
+Norway,2009,2
+Norway,2010,1.9
+Norway,2011,1.9
+Norway,2012,1.9
+Norway,2013,1.8
+Norway,2014,1.8
+Norway,2015,1.7
+Norway,2016,1.7
+Norway,2017,1.6
+Norway,2018,1.6
+Norway,2019,1.5
+Sweden,2008,1.9
+Sweden,2009,1.9
+Sweden,2010,2
+Sweden,2011,1.9
+Sweden,2012,1.9
+Sweden,2013,1.9
+Sweden,2014,1.9
+Sweden,2015,1.9
+Sweden,2016,1.9
+Sweden,2017,1.8
+Sweden,2018,1.8
+Sweden,2019,1.7
+UK,2008,1.9
+UK,2009,1.9
+UK,2010,1.9
+UK,2011,1.9
+UK,2012,1.9
+UK,2013,1.8
+UK,2014,1.8
+UK,2015,1.8
+UK,2016,1.8
+UK,2017,1.7
+UK,2018,1.7
+USA,2008,2.1
+USA,2009,2
+USA,2010,1.9
+USA,2011,1.9
+USA,2012,1.9
+USA,2013,1.9
+USA,2014,1.9
+USA,2015,1.8
+USA,2016,1.8
+USA,2017,1.8
+USA,2018,1.7
+China,2008,1.6
+China,2009,1.6
+China,2010,1.6
+China,2011,1.6
+China,2012,1.6
+China,2013,1.6
+China,2014,1.7
+China,2015,1.7
+China,2016,1.7
+China,2017,1.7
+China,2018,1.7
+Israel,2008,3
+Israel,2009,3
+Israel,2010,3
+Israel,2011,3
+Israel,2012,3.1
+Israel,2013,3
+Israel,2014,3.1
+Israel,2015,3.1
+Israel,2016,3.1
+Israel,2017,3.1
+Israel,2018,3.1
+Russia,2008,1.5
+Russia,2009,1.5
+Russia,2010,1.6
+Russia,2011,1.6
+Russia,2012,1.7
+Russia,2013,1.7
+Russia,2014,1.8
+Russia,2015,1.8
+Russia,2016,1.8
+Russia,2017,1.6
+Russia,2018,1.6
+South Africa,2008,2.6
+South Africa,2009,2.6
+South Africa,2010,2.6
+South Africa,2011,2.6
+South Africa,2012,2.6
+South Africa,2013,2.5
+South Africa,2014,2.5
+South Africa,2015,2.5
+South Africa,2016,2.5
+South Africa,2017,2.4
+South Africa,2018,2.4
+Argentina,2008,2.4
+Argentina,2009,2.4
+Argentina,2010,2.3
+Argentina,2011,2.3
+Argentina,2012,2.3
+Argentina,2013,2.3
+Argentina,2014,2.3
+Argentina,2015,2.3
+Argentina,2016,2.3
+Argentina,2017,2.3
+Argentina,2018,2.3
+OECD Average,2008,1.8
+OECD Average,2009,1.7
+OECD Average,2010,1.7
+OECD Average,2011,1.7
+OECD Average,2012,1.7
+OECD Average,2013,1.7
+OECD Average,2014,1.7
+OECD Average,2015,1.7
+OECD Average,2016,1.7
+OECD Average,2017,1.7
+OECD Average,2018,1.6
+EU,2008,1.6
+EU,2009,1.6
+EU,2010,1.6
+EU,2011,1.5
+EU,2012,1.5
+EU,2013,1.5
+EU,2014,1.5
+EU,2015,1.5
+EU,2016,1.6
+EU,2017,1.5
+EU,2018,1.5
+India,2008,2.7
+India,2009,2.7
+India,2010,2.6
+India,2011,2.5
+India,2012,2.4
+India,2013,2.4
+India,2014,2.3
+India,2015,2.3
+India,2016,2.3
+India,2017,2.2
+India,2018,2.2
