@@ -1,0 +1,13 @@
+﻿Income_type,Year,Total_housework,Household_management,Family_care
+Dual_Men,2014,41,28,13
+Dual_Women,2014,193,158,35
+Single(Husband)_Men,2014,46,27,19
+Single(Husband)_Women,2014,360,253,107
+Single(Wife)_Men,2014,99,86,13
+Single(Wife)_Women,2014,159,145,14
+Dual_Men,2019,54,39,15
+Dual_Women,2019,187,151,36
+Single(Husband)_Men,2019,53,33,20
+Single(Husband)_Women,2019,341,245,96
+Single(Wife)_Men,2019,119,103,16
+Single(Wife)_Women,2019,156,139,17
