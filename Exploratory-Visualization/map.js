@@ -103,7 +103,7 @@ function drawMap() {
         .style("transform", d => {
             // only move if we have a value for screenPosition
             if (d.screenPosition)
-                return `translate(${d.screenPosition[0]-220}px, ${d.screenPosition[1]+600}px)`
+                return `translate(${d.screenPosition[0] - 220}px, ${d.screenPosition[1] - 300}px)`
         })
         .html(d => {
             return `
