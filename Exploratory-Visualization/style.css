@@ -1,23 +1,63 @@
 /* svg {
   background-color:;
 } */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
 
 body {
-  background-color: #fff7e8;
+  background-color: #f7f7e8;
   display: flex;
   flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
 }
 
-.description {
-  justify-content: center;
+.hover-content {
+  top: 0;
+  left: 0;
+  max-width: 280px;
+  color: #2a3356;
+  padding: 0.5em;
+  border-radius: 2px;
+  border: solid 1px;
+  opacity: 1;
+  background-color: #fafcc2;
+  font-size: 18px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: left;
+}
+.tick text {
+  font-size: 15px;
+}
+.description,
+.big-wrapper,
+.map-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
 }
+.title-one,
+.title-two {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.big-wrapper {
+  margin-top: 100px;
+}
+
+.line-chart-container,
+.inner-wrapper,
 .comparison-container {
   display: flex;
   flex-direction: row;
-}
-
-.line-chart-container {
-  display: flex;
-  flex-direction: row;
+  margin-bottom: 50px;
 }

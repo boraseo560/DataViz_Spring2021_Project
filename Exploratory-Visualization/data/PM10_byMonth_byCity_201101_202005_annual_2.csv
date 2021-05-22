@@ -1,0 +1,186 @@
+Province,Year,PM10
+Seoul,2011,47.2
+Seoul,2012,41.0
+Seoul,2013,44.5
+Seoul,2014,45.9
+Seoul,2015,45.5
+Seoul,2016,47.8
+Seoul,2017,43.8
+Seoul,2018,39.8
+Seoul,2019,41.6
+Seoul,2020,41.4
+Busan,2011,47.6
+Busan,2012,43.4
+Busan,2013,48.5
+Busan,2014,48.4
+Busan,2015,45.1
+Busan,2016,43.8
+Busan,2017,43.8
+Busan,2018,41.6
+Busan,2019,36.9
+Busan,2020,33.4
+Daegu,2011,46.7
+Daegu,2012,42.5
+Daegu,2013,45.3
+Daegu,2014,45.2
+Daegu,2015,45.6
+Daegu,2016,43.1
+Daegu,2017,41.9
+Daegu,2018,39.9
+Daegu,2019,39.0
+Daegu,2020,38.0
+Incheon,2011,55.0
+Incheon,2012,47.3
+Incheon,2013,49.1
+Incheon,2014,48.8
+Incheon,2015,51.7
+Incheon,2016,49.6
+Incheon,2017,45.4
+Incheon,2018,39.5
+Incheon,2019,42.7
+Incheon,2020,38.0
+Gwangju,2011,42.8
+Gwangju,2012,38.1
+Gwangju,2013,42.3
+Gwangju,2014,40.9
+Gwangju,2015,41.6
+Gwangju,2016,40.1
+Gwangju,2017,40.4
+Gwangju,2018,40.9
+Gwangju,2019,42.0
+Gwangju,2020,34.4
+Daejeon,2011,44.1
+Daejeon,2012,39.2
+Daejeon,2013,41.7
+Daejeon,2014,41.0
+Daejeon,2015,45.3
+Daejeon,2016,43.8
+Daejeon,2017,45.3
+Daejeon,2018,43.7
+Daejeon,2019,41.2
+Daejeon,2020,38.4
+Ulsan,2011,49.5
+Ulsan,2012,45.6
+Ulsan,2013,47.1
+Ulsan,2014,46.3
+Ulsan,2015,45.2
+Ulsan,2016,43.2
+Ulsan,2017,42.7
+Ulsan,2018,40.1
+Ulsan,2019,36.8
+Ulsan,2020,33.4
+Sejong,2016,46.0
+Sejong,2017,46.8
+Sejong,2018,42.0
+Sejong,2019,43.8
+Sejong,2020,43.0
+Gyeonggi-do,2011,57.2
+Gyeonggi-do,2012,49.3
+Gyeonggi-do,2013,54.1
+Gyeonggi-do,2014,54.3
+Gyeonggi-do,2015,52.2
+Gyeonggi-do,2016,52.6
+Gyeonggi-do,2017,51.2
+Gyeonggi-do,2018,44.2
+Gyeonggi-do,2019,46.2
+Gyeonggi-do,2020,45.0
+Gangwon-do,2011,49.3
+Gangwon-do,2012,46.7
+Gangwon-do,2013,50.5
+Gangwon-do,2014,50.8
+Gangwon-do,2015,49.7
+Gangwon-do,2016,46.8
+Gangwon-do,2017,44.1
+Gangwon-do,2018,37.8
+Gangwon-do,2019,38.1
+Gangwon-do,2020,35.0
+Chungcheongbuk-do,2011,56.2
+Chungcheongbuk-do,2012,51.1
+Chungcheongbuk-do,2013,55.3
+Chungcheongbuk-do,2014,51.9
+Chungcheongbuk-do,2015,50.0
+Chungcheongbuk-do,2016,45.9
+Chungcheongbuk-do,2017,44.0
+Chungcheongbuk-do,2018,44.2
+Chungcheongbuk-do,2019,44.0
+Chungcheongbuk-do,2020,41.4
+Chungcheongnam-do,2011,44.3
+Chungcheongnam-do,2012,41.0
+Chungcheongnam-do,2013,41.8
+Chungcheongnam-do,2014,42.4
+Chungcheongnam-do,2015,44.9
+Chungcheongnam-do,2016,47.9
+Chungcheongnam-do,2017,45.1
+Chungcheongnam-do,2018,40.2
+Chungcheongnam-do,2019,43.7
+Chungcheongnam-do,2020,43.4
+Jeollabuk-do,2011,51.0
+Jeollabuk-do,2012,48.5
+Jeollabuk-do,2013,51.1
+Jeollabuk-do,2014,50.6
+Jeollabuk-do,2015,50.0
+Jeollabuk-do,2016,50.8
+Jeollabuk-do,2017,48.2
+Jeollabuk-do,2018,43.9
+Jeollabuk-do,2019,43.1
+Jeollabuk-do,2020,38.4
+Jeollanam-do,2011,41.3
+Jeollanam-do,2012,36.0
+Jeollanam-do,2013,38.5
+Jeollanam-do,2014,37.6
+Jeollanam-do,2015,37.9
+Jeollanam-do,2016,36.8
+Jeollanam-do,2017,35.3
+Jeollanam-do,2018,35.2
+Jeollanam-do,2019,33.8
+Jeollanam-do,2020,31.2
+Gyeongsangbuk-do,2011,47.8
+Gyeongsangbuk-do,2012,45.2
+Gyeongsangbuk-do,2013,50.1
+Gyeongsangbuk-do,2014,48.8
+Gyeongsangbuk-do,2015,44.6
+Gyeongsangbuk-do,2016,39.9
+Gyeongsangbuk-do,2017,39.8
+Gyeongsangbuk-do,2018,43.8
+Gyeongsangbuk-do,2019,41.1
+Gyeongsangbuk-do,2020,35.2
+Gyeongsangnam-do,2011,45.3
+Gyeongsangnam-do,2012,42.1
+Gyeongsangnam-do,2013,47.4
+Gyeongsangnam-do,2014,47.7
+Gyeongsangnam-do,2015,45.6
+Gyeongsangnam-do,2016,44.7
+Gyeongsangnam-do,2017,42.6
+Gyeongsangnam-do,2018,41.5
+Gyeongsangnam-do,2019,38.5
+Gyeongsangnam-do,2020,31.4
+Jeju-do,2011,42.2
+Jeju-do,2012,33.9
+Jeju-do,2013,40.3
+Jeju-do,2014,46.6
+Jeju-do,2015,44.2
+Jeju-do,2016,41.2
+Jeju-do,2017,36.8
+Jeju-do,2018,35.0
+Jeju-do,2019,35.0
+Jeju-do,2020,35.4
+WHO Guideline Level,2011,20
+WHO Guideline Level,2012,20
+WHO Guideline Level,2013,20
+WHO Guideline Level,2014,20
+WHO Guideline Level,2015,20
+WHO Guideline Level,2016,20
+WHO Guideline Level,2017,20
+WHO Guideline Level,2018,20
+WHO Guideline Level,2019,20
+WHO Guideline Level,2020,20
+USA/South Korea Guideline Level,2011,50
+USA/South Korea Guideline Level,2012,50
+USA/South Korea Guideline Level,2013,50
+USA/South Korea Guideline Level,2014,50
+USA/South Korea Guideline Level,2015,50
+USA/South Korea Guideline Level,2016,50
+USA/South Korea Guideline Level,2017,50
+USA/South Korea Guideline Level,2018,50
+USA/South Korea Guideline Level,2019,50
+USA/South Korea Guideline Level,2020,50

@@ -6,29 +6,52 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-
     <div class="description">
       <h1>How bad is the air quality in South Korea?</h1>
-      <span> What is PM? </span>
-      <Span> Why it is bad? </span?
+      <span class="what"> What is PM? </span>
+      <span class="why"> Why it is bad? </span>
+      <span class="guideline"> WHO USA SOUTH KOREA </span>
     </div>
-    <div class="line-chart-container">
-      <div class="pm25-line"></div>
-      <div class="pm10-line"></div>
+    <div class="big-wrapper">
+      <div class="title-one">
+        <h2> Annual Records of PM in Provinces and Major Cities of South Korea</br>(PM2.5: 2015-2020, PM10: 2011-2020) </h2>
+      </div>    
+      <div class="line-chart-container">
+        <div class="pm25-line"></div>
+        <div class="pm10-line"></div>
+      </div>
+      <div class="map-container">
+        <div class="title-two">
+          <h2> Map of South Korea </h2>
+        </div>    
+        <div class="inner-wrapper">
+          <div class="sk-map"></div>
+          <div class="list">
+            <div class="list-one">
+              <h3>■ Provinces </h3>
+              <span class="one"> 1 Gyeonggi-do </br> 2 Gangwon-do</br> 3 Chungcheongbuk-do </br> 4 Chungchengnam-do</br> 5 Jeollabuk-do </br> 6 Jeollanam-do</br> 7 Gyeongsangbuk-do </br> 8 Gyeongsangnam-do</br> 9 Jeju-do(Self-Governing Province)</span>
+            </div>
+            <div class="list-two">
+              <h3>■ Cities </h3>
+              <span class="two"> 1 Seoul (Special City, Capital City) </br> 2 Busan (Metropolitan City) </br> 3 Daegu (Metropolitan City) </br> 4 Incheon (Metropolian City) </br> 5 Gwangju (Metropolitan City)</br> 6 Daejeon (Metropolitan City) </br> 7 Ulsan (Metropolitan City)</br>8 Sejong (Special Self-Governing City) </span> 
+            </div>
+          </div> 
+        </div> 
+      </div>
+      <div class="title-two">
+        <h2> Comparison With Major International Cities (2011-2019) </h2>
+      </div>    
+      <div class="comparison-container">
+        <div class="comparison-25"></div>
+        <div class="comparison-10"></div>
+      </div>
     </div>
-    <div class="map-container">
-      <div class="sk-map"></div>
-      <div class="aqi-index"></div>
-    </div>
-    <div class="comparison-container">
-      <div class="comparison-25"></div>
-      <div class="comparison-10"></div>
-    </div>
-  
     <script src="../lib/d3.js"></script>
     <script src="sKoreaTwoFive.js"></script>
     <script src="map.js"></script>
     <script src="sKoreaTen.js"></script>
     <script src="comparison.js"></script>
+    
+    <script src="comparison_ten.js"></script>
   </body>
 </html>
