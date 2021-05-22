@@ -81,7 +81,7 @@ body {
   flex-direction: row;
   margin-bottom: 50px;
 }
-.map-container {
+.inner-wrapper {
   position: relative;
 }
 
