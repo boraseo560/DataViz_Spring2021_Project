@@ -1,7 +1,7 @@
 /* svg {
   background-color:;
 } */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
 * {
   font-family: "Roboto", sans-serif;
@@ -13,6 +13,27 @@ body {
   flex-direction: column;
   /* justify-content: center;
   align-items: center; */
+}
+.hr-one {
+  width: 600px;
+  border-bottom: 0px;
+  margin: 15px 0 30px 0;
+}
+.description {
+  margin-top: 40px;
+}
+.description h1 {
+  line-height: 0.1em;
+}
+.what,
+.why,
+.guideline {
+  font-weight: 400;
+}
+.description p {
+  margin: 0px 565px 0px 565px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .hover-content {
@@ -51,7 +72,7 @@ body {
   text-align: center;
 }
 .big-wrapper {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .line-chart-container,
@@ -60,4 +81,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
+}
+.inner-wrapper {
+  position: relative;
 }
